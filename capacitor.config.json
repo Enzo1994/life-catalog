@@ -1,0 +1,13 @@
+{
+  "appId": "com.enzolabs.lifecatalog",
+  "appName": "人生图鉴",
+  "webDir": "dist",
+  "backgroundColor": "#ffffff",
+  "ios": {
+    "contentInset": "never"
+  },
+  "android": {
+    "backgroundColor": "#ffffff",
+    "allowMixedContent": false
+  }
+}

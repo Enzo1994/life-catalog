@@ -1,0 +1,32 @@
+{
+  "name": "life-catalog",
+  "private": true,
+  "version": "0.2.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "test": "node --test tests/*.test.mjs",
+    "native:sync": "npm run build && cap sync && node scripts/prepare-ios-runtime.mjs",
+    "android:apk": "bash scripts/build-android.sh",
+    "ios:open": "cap open ios"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.5.3",
+    "@capacitor/app": "^8.1.2",
+    "@capacitor/camera": "^8.2.6",
+    "@capacitor/core": "^8.5.3",
+    "@capacitor/filesystem": "^8.1.5",
+    "@capacitor/ios": "^8.5.3",
+    "@capacitor/share": "^8.0.3",
+    "lucide-react": "^0.468.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^8.5.3",
+    "fake-indexeddb": "^6.2.6",
+    "prettier": "^3.9.10",
+    "vite": "^7.1.0"
+  }
+}

@@ -1,0 +1,3 @@
+PASS: swiftc -typecheck, Xcode 26.2 / iOS Simulator SDK 26.2, target arm64-apple-ios17.0-simulator.
+Files: SubjectCutoutPlugin.swift, CatalogViewController.swift, SceneDelegate.swift, AppDelegate.swift.
+No signing or real-device installation performed.

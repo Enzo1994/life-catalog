@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.DS_Store
+.playwright/
+artifacts/
+android/local.properties
+android/.gradle/
+android/**/build/
+ios/DerivedData/
+*.keystore
+*.jks
+native/capacitor-swift-pm/*.xcframework/
